@@ -1,0 +1,9 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Objects/Spike.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Sprites/sSpikeStaticBigV_0.png" type="Texture" id=2]
+[ext_resource path="res://item_texture.tscn" type="PackedScene" id=3]
+
+[node name="item_spike" instance=ExtResource( 3 )]
+texture = ExtResource( 2 )
+this_scene = ExtResource( 1 )
